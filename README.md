@@ -25,7 +25,8 @@ At the heart of SubletSwift is its ability to allow users to list and view avail
 
 - *Property Details View*
 
- <img src = "https://github.com/illia1383/SubletApp/assets/122395038/be06289f-2b41-42a6-a533-3c28d627f6cf" width="150" height="auto">
+ <img src =  "https://github.com/illia1383/SubletApp/assets/122395038/0794e83a-bc17-44e9-b7ba-3e762d1851da"
+width="150" height="auto">
 
 
 ## 3. Map-Based Search Feature
@@ -33,5 +34,5 @@ SubletSwift’s map-based search feature enhances the user experience by allowin
 
 Search Feature in Action
 
- // <img src =  "Simulator Screenshot - iPhone 15 - 2024-01-12 at 15 47 44](https://github.com/illia1383/SubletApp/assets/122395038/8d74c297-7773-4901-9414-f50b5257773c" width="150" height="auto">
+ <img src =  "Simulator Screenshot - iPhone 15 - 2024-01-12 at 15 47 44](https://github.com/illia1383/SubletApp/assets/122395038/8d74c297-7773-4901-9414-f50b5257773c" width="150" height="auto">
 
