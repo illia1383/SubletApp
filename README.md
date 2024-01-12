@@ -27,6 +27,12 @@ At the heart of SubletSwift is its ability to allow users to list and view avail
 
 ## 3. Map-Based Search Feature
 SubletSwift’s map-based search feature enhances the user experience by allowing users to search for specific locations, like a nearby Starbucks. This feature is particularly useful for users looking to find sublets in proximity to specific points of interest.
+![Simulator Screenshot - iPhone 15 - 2024-01-12 at 15 48 36](https://github.com/illia1383/SubletApp/assets/122395038/72bf510f-9e59-4099-b2d9-2e756978580d)
+![Simulator Screenshot - iPhone 15 - 2024-01-12 at 15 46 17](https://github.com/illia1383/SubletApp/assets/122395038/4895341a-2699-4c30-9a80-568b2f856be0)
+![Simulator Screenshot - iPhone 15 - 2024-01-12 at 15 46 39](https://github.com/illia1383/SubletApp/assets/122395038/9ebc5823-47d4-476a-8d4d-d35d1afe788e)
+![Simulator Screenshot - iPhone 15 - 2024-01-12 at 15 47 44](https://github.com/illia1383/SubletApp/assets/122395038/5187206b-583d-4bbd-8d11-fcd18795517f)
+![Simulator Screenshot - iPhone 15 - 2024-01-12 at 15 50 27](https://github.com/illia1383/SubletApp/assets/122395038/e3d5fab9-e0a8-49e1-b675-bd5ce00390af)
+![Simulator Screenshot - iPhone 15 - 2024-01-12 at 15 50 37](https://github.com/illia1383/SubletApp/assets/122395038/a2dcfb70-806a-4dbc-b694-b5e6ae873fc4) 
 
 Search Feature in Action
 
