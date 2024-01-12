@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B8CB2652B366620003138D1 /* SubletAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2642B366620003138D1 /* SubletAppApp.swift */; };
+		7B8CB2692B366621003138D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8CB2682B366621003138D1 /* Assets.xcassets */; };
+		7B8CB26C2B366621003138D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8CB26B2B366621003138D1 /* Preview Assets.xcassets */; };
+		7B8CB2762B366622003138D1 /* SubletAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2752B366622003138D1 /* SubletAppTests.swift */; };
+		7B8CB2802B366622003138D1 /* SubletAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB27F2B366622003138D1 /* SubletAppUITests.swift */; };
+		7B8CB2822B366622003138D1 /* SubletAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2812B366622003138D1 /* SubletAppUITestsLaunchTests.swift */; };
+		7B8CB2992B38AD46003138D1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2982B38AD46003138D1 /* MainView.swift */; };
+		7B8CB29C2B38AF4C003138D1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8CB29B2B38AF4C003138D1 /* FirebaseAnalytics */; };
+		7B8CB29E2B38AF4C003138D1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8CB29D2B38AF4C003138D1 /* FirebaseAuth */; };
+		7B8CB2A02B38AF4C003138D1 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8CB29F2B38AF4C003138D1 /* FirebaseAuthCombine-Community */; };
+		7B8CB2A22B38AF4C003138D1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8CB2A12B38AF4C003138D1 /* FirebaseStorage */; };
+		7B8CB2A52B40D46E003138D1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8CB2A42B40D46E003138D1 /* FirebaseFirestoreSwift */; };
+		7B8CB2A72B40D478003138D1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8CB2A62B40D478003138D1 /* FirebaseFirestore */; };
+		7B8CB2A92B40D502003138D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B8CB2A82B40D502003138D1 /* GoogleService-Info.plist */; };
+		7B8CB2AB2B40F176003138D1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2AA2B40F176003138D1 /* LoginView.swift */; };
+		7B8CB2AD2B40F18D003138D1 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2AC2B40F18D003138D1 /* RegisterView.swift */; };
+		7B8CB2AF2B40F1C6003138D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2AE2B40F1C6003138D1 /* User.swift */; };
+		7B8CB2B12B40F1DD003138D1 /* HouseListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2B02B40F1DD003138D1 /* HouseListing.swift */; };
+		7B8CB2B52B40F226003138D1 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2B42B40F226003138D1 /* MainViewViewModel.swift */; };
+		7B8CB2B72B40F233003138D1 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2B62B40F233003138D1 /* LoginViewViewModel.swift */; };
+		7B8CB2B92B40F23E003138D1 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2B82B40F23E003138D1 /* RegisterViewViewModel.swift */; };
+		7B8CB2BB2B40FF96003138D1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2BA2B40FF96003138D1 /* HeaderView.swift */; };
+		7B8CB2BF2B44A2D2003138D1 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2BE2B44A2D2003138D1 /* TLButton.swift */; };
+		7B8CB2C12B460EF4003138D1 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2C02B460EF4003138D1 /* Extentions.swift */; };
+		7B8CB2C52B4611EE003138D1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2C42B4611EE003138D1 /* MapView.swift */; };
+		7B8CB2C72B49F2A9003138D1 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB2C62B49F2A9003138D1 /* LocationDetailsView.swift */; };
+		7BA07F3F2B4A22B6002BE0C8 /* HouseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA07F3E2B4A22B6002BE0C8 /* HouseListView.swift */; };
+		7BA07F492B4E16A4002BE0C8 /* HouseInputForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA07F482B4E16A4002BE0C8 /* HouseInputForm.swift */; };
+		7BA07F4B2B4E6116002BE0C8 /* MapAnnotationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA07F4A2B4E6116002BE0C8 /* MapAnnotationsView.swift */; };
+		7BA07F4D2B4E84C7002BE0C8 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA07F4C2B4E84C7002BE0C8 /* CustomAnnotationView.swift */; };
+		7BA07F532B4F6237002BE0C8 /* AnnotationPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA07F522B4F6237002BE0C8 /* AnnotationPopupView.swift */; };
+		7BA07F552B50D130002BE0C8 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA07F542B50D130002BE0C8 /* MapViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B8CB2722B366622003138D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8CB2592B366620003138D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8CB2602B366620003138D1;
+			remoteInfo = SubletApp;
+		};
+		7B8CB27C2B366622003138D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8CB2592B366620003138D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8CB2602B366620003138D1;
+			remoteInfo = SubletApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B8CB2612B366620003138D1 /* SubletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8CB2642B366620003138D1 /* SubletAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubletAppApp.swift; sourceTree = "<group>"; };
+		7B8CB2682B366621003138D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B8CB26B2B366621003138D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B8CB2712B366622003138D1 /* SubletAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubletAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8CB2752B366622003138D1 /* SubletAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubletAppTests.swift; sourceTree = "<group>"; };
+		7B8CB27B2B366622003138D1 /* SubletAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubletAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8CB27F2B366622003138D1 /* SubletAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubletAppUITests.swift; sourceTree = "<group>"; };
+		7B8CB2812B366622003138D1 /* SubletAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubletAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B8CB2982B38AD46003138D1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7B8CB2A82B40D502003138D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B8CB2AA2B40F176003138D1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7B8CB2AC2B40F18D003138D1 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		7B8CB2AE2B40F1C6003138D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7B8CB2B02B40F1DD003138D1 /* HouseListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListing.swift; sourceTree = "<group>"; };
+		7B8CB2B42B40F226003138D1 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		7B8CB2B62B40F233003138D1 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		7B8CB2B82B40F23E003138D1 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		7B8CB2BA2B40FF96003138D1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		7B8CB2BE2B44A2D2003138D1 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		7B8CB2C02B460EF4003138D1 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		7B8CB2C42B4611EE003138D1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7B8CB2C62B49F2A9003138D1 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
+		7BA07F3E2B4A22B6002BE0C8 /* HouseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListView.swift; sourceTree = "<group>"; };
+		7BA07F482B4E16A4002BE0C8 /* HouseInputForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInputForm.swift; sourceTree = "<group>"; };
+		7BA07F4A2B4E6116002BE0C8 /* MapAnnotationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationsView.swift; sourceTree = "<group>"; };
+		7BA07F4C2B4E84C7002BE0C8 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		7BA07F522B4F6237002BE0C8 /* AnnotationPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationPopupView.swift; sourceTree = "<group>"; };
+		7BA07F542B50D130002BE0C8 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B8CB25E2B366620003138D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8CB2A52B40D46E003138D1 /* FirebaseFirestoreSwift in Frameworks */,
+				7B8CB29C2B38AF4C003138D1 /* FirebaseAnalytics in Frameworks */,
+				7B8CB2A22B38AF4C003138D1 /* FirebaseStorage in Frameworks */,
+				7B8CB2A02B38AF4C003138D1 /* FirebaseAuthCombine-Community in Frameworks */,
+				7B8CB29E2B38AF4C003138D1 /* FirebaseAuth in Frameworks */,
+				7B8CB2A72B40D478003138D1 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CB26E2B366621003138D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CB2782B366622003138D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B8CB2582B366620003138D1 = {
+			isa = PBXGroup;
+			children = (
+				7B8CB2632B366620003138D1 /* SubletApp */,
+				7B8CB2742B366622003138D1 /* SubletAppTests */,
+				7B8CB27E2B366622003138D1 /* SubletAppUITests */,
+				7B8CB2622B366620003138D1 /* Products */,
+				7B8CB2A32B40D465003138D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B8CB2622B366620003138D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CB2612B366620003138D1 /* SubletApp.app */,
+				7B8CB2712B366622003138D1 /* SubletAppTests.xctest */,
+				7B8CB27B2B366622003138D1 /* SubletAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B8CB2632B366620003138D1 /* SubletApp */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CB2952B38ACC5003138D1 /* Other */,
+				7B8CB2932B372F91003138D1 /* Views */,
+				7B8CB2942B372F99003138D1 /* Model */,
+				7B8CB2922B372F88003138D1 /* ViewModel */,
+				7B8CB2912B372F58003138D1 /* Services */,
+				7B8CB26A2B366621003138D1 /* Preview Content */,
+			);
+			path = SubletApp;
+			sourceTree = "<group>";
+		};
+		7B8CB26A2B366621003138D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CB26B2B366621003138D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B8CB2742B366622003138D1 /* SubletAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CB2752B366622003138D1 /* SubletAppTests.swift */,
+			);
+			path = SubletAppTests;
+			sourceTree = "<group>";
+		};
+		7B8CB27E2B366622003138D1 /* SubletAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CB27F2B366622003138D1 /* SubletAppUITests.swift */,
+				7B8CB2812B366622003138D1 /* SubletAppUITestsLaunchTests.swift */,
+			);
+			path = SubletAppUITests;
+			sourceTree = "<group>";
+		};
+		7B8CB2912B372F58003138D1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7B8CB2922B372F88003138D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CB2B42B40F226003138D1 /* MainViewViewModel.swift */,
+				7B8CB2B62B40F233003138D1 /* LoginViewViewModel.swift */,
+				7B8CB2B82B40F23E003138D1 /* RegisterViewViewModel.swift */,
+				7BA07F542B50D130002BE0C8 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B8CB2932B372F91003138D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CB2982B38AD46003138D1 /* MainView.swift */,
+				7B8CB2AA2B40F176003138D1 /* LoginView.swift */,
+				7B8CB2BE2B44A2D2003138D1 /* TLButton.swift */,
+				7BA07F4A2B4E6116002BE0C8 /* MapAnnotationsView.swift */,
+				7BA07F4C2B4E84C7002BE0C8 /* CustomAnnotationView.swift */,
+				7B8CB2AC2B40F18D003138D1 /* RegisterView.swift */,
+				7BA07F482B4E16A4002BE0C8 /* HouseInputForm.swift */,
+				7B8CB2BA2B40FF96003138D1 /* HeaderView.swift */,
+				7BA07F522B4F6237002BE0C8 /* AnnotationPopupView.swift */,
+				7B8CB2C42B4611EE003138D1 /* MapView.swift */,
+				7B8CB2C62B49F2A9003138D1 /* LocationDetailsView.swift */,
+				7BA07F3E2B4A22B6002BE0C8 /* HouseListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B8CB2942B372F99003138D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CB2AE2B40F1C6003138D1 /* User.swift */,
+				7B8CB2B02B40F1DD003138D1 /* HouseListing.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B8CB2952B38ACC5003138D1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CB2682B366621003138D1 /* Assets.xcassets */,
+				7B8CB2642B366620003138D1 /* SubletAppApp.swift */,
+				7B8CB2A82B40D502003138D1 /* GoogleService-Info.plist */,
+				7B8CB2C02B460EF4003138D1 /* Extentions.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7B8CB2A32B40D465003138D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B8CB2602B366620003138D1 /* SubletApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8CB2852B366622003138D1 /* Build configuration list for PBXNativeTarget "SubletApp" */;
+			buildPhases = (
+				7B8CB25D2B366620003138D1 /* Sources */,
+				7B8CB25E2B366620003138D1 /* Frameworks */,
+				7B8CB25F2B366620003138D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubletApp;
+			packageProductDependencies = (
+				7B8CB29B2B38AF4C003138D1 /* FirebaseAnalytics */,
+				7B8CB29D2B38AF4C003138D1 /* FirebaseAuth */,
+				7B8CB29F2B38AF4C003138D1 /* FirebaseAuthCombine-Community */,
+				7B8CB2A12B38AF4C003138D1 /* FirebaseStorage */,
+				7B8CB2A42B40D46E003138D1 /* FirebaseFirestoreSwift */,
+				7B8CB2A62B40D478003138D1 /* FirebaseFirestore */,
+			);
+			productName = SubletApp;
+			productReference = 7B8CB2612B366620003138D1 /* SubletApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B8CB2702B366621003138D1 /* SubletAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8CB2882B366622003138D1 /* Build configuration list for PBXNativeTarget "SubletAppTests" */;
+			buildPhases = (
+				7B8CB26D2B366621003138D1 /* Sources */,
+				7B8CB26E2B366621003138D1 /* Frameworks */,
+				7B8CB26F2B366621003138D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B8CB2732B366622003138D1 /* PBXTargetDependency */,
+			);
+			name = SubletAppTests;
+			productName = SubletAppTests;
+			productReference = 7B8CB2712B366622003138D1 /* SubletAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B8CB27A2B366622003138D1 /* SubletAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8CB28B2B366622003138D1 /* Build configuration list for PBXNativeTarget "SubletAppUITests" */;
+			buildPhases = (
+				7B8CB2772B366622003138D1 /* Sources */,
+				7B8CB2782B366622003138D1 /* Frameworks */,
+				7B8CB2792B366622003138D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B8CB27D2B366622003138D1 /* PBXTargetDependency */,
+			);
+			name = SubletAppUITests;
+			productName = SubletAppUITests;
+			productReference = 7B8CB27B2B366622003138D1 /* SubletAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B8CB2592B366620003138D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					7B8CB2602B366620003138D1 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					7B8CB2702B366621003138D1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7B8CB2602B366620003138D1;
+					};
+					7B8CB27A2B366622003138D1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7B8CB2602B366620003138D1;
+					};
+				};
+			};
+			buildConfigurationList = 7B8CB25C2B366620003138D1 /* Build configuration list for PBXProject "SubletApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B8CB2582B366620003138D1;
+			packageReferences = (
+				7B8CB29A2B38AF4C003138D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7B8CB2622B366620003138D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B8CB2602B366620003138D1 /* SubletApp */,
+				7B8CB2702B366621003138D1 /* SubletAppTests */,
+				7B8CB27A2B366622003138D1 /* SubletAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B8CB25F2B366620003138D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8CB26C2B366621003138D1 /* Preview Assets.xcassets in Resources */,
+				7B8CB2692B366621003138D1 /* Assets.xcassets in Resources */,
+				7B8CB2A92B40D502003138D1 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CB26F2B366621003138D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CB2792B366622003138D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B8CB25D2B366620003138D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8CB2B92B40F23E003138D1 /* RegisterViewViewModel.swift in Sources */,
+				7B8CB2BF2B44A2D2003138D1 /* TLButton.swift in Sources */,
+				7B8CB2AB2B40F176003138D1 /* LoginView.swift in Sources */,
+				7BA07F492B4E16A4002BE0C8 /* HouseInputForm.swift in Sources */,
+				7B8CB2AD2B40F18D003138D1 /* RegisterView.swift in Sources */,
+				7BA07F3F2B4A22B6002BE0C8 /* HouseListView.swift in Sources */,
+				7B8CB2652B366620003138D1 /* SubletAppApp.swift in Sources */,
+				7B8CB2B12B40F1DD003138D1 /* HouseListing.swift in Sources */,
+				7B8CB2B72B40F233003138D1 /* LoginViewViewModel.swift in Sources */,
+				7B8CB2C52B4611EE003138D1 /* MapView.swift in Sources */,
+				7B8CB2AF2B40F1C6003138D1 /* User.swift in Sources */,
+				7BA07F552B50D130002BE0C8 /* MapViewModel.swift in Sources */,
+				7B8CB2C12B460EF4003138D1 /* Extentions.swift in Sources */,
+				7B8CB2C72B49F2A9003138D1 /* LocationDetailsView.swift in Sources */,
+				7B8CB2BB2B40FF96003138D1 /* HeaderView.swift in Sources */,
+				7B8CB2B52B40F226003138D1 /* MainViewViewModel.swift in Sources */,
+				7B8CB2992B38AD46003138D1 /* MainView.swift in Sources */,
+				7BA07F532B4F6237002BE0C8 /* AnnotationPopupView.swift in Sources */,
+				7BA07F4D2B4E84C7002BE0C8 /* CustomAnnotationView.swift in Sources */,
+				7BA07F4B2B4E6116002BE0C8 /* MapAnnotationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CB26D2B366621003138D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8CB2762B366622003138D1 /* SubletAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CB2772B366622003138D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8CB2802B366622003138D1 /* SubletAppUITests.swift in Sources */,
+				7B8CB2822B366622003138D1 /* SubletAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B8CB2732B366622003138D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B8CB2602B366620003138D1 /* SubletApp */;
+			targetProxy = 7B8CB2722B366622003138D1 /* PBXContainerItemProxy */;
+		};
+		7B8CB27D2B366622003138D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B8CB2602B366620003138D1 /* SubletApp */;
+			targetProxy = 7B8CB27C2B366622003138D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B8CB2832B366622003138D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B8CB2842B366622003138D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B8CB2862B366622003138D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SubletApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3JS2SYS8UZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SubletApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = illia.SubletApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B8CB2872B366622003138D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SubletApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3JS2SYS8UZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SubletApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = illia.SubletApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B8CB2892B366622003138D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3JS2SYS8UZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = illia.SubletAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubletApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubletApp";
+			};
+			name = Debug;
+		};
+		7B8CB28A2B366622003138D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3JS2SYS8UZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = illia.SubletAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubletApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubletApp";
+			};
+			name = Release;
+		};
+		7B8CB28C2B366622003138D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3JS2SYS8UZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = illia.SubletAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SubletApp;
+			};
+			name = Debug;
+		};
+		7B8CB28D2B366622003138D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3JS2SYS8UZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = illia.SubletAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SubletApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B8CB25C2B366620003138D1 /* Build configuration list for PBXProject "SubletApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8CB2832B366622003138D1 /* Debug */,
+				7B8CB2842B366622003138D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8CB2852B366622003138D1 /* Build configuration list for PBXNativeTarget "SubletApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8CB2862B366622003138D1 /* Debug */,
+				7B8CB2872B366622003138D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8CB2882B366622003138D1 /* Build configuration list for PBXNativeTarget "SubletAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8CB2892B366622003138D1 /* Debug */,
+				7B8CB28A2B366622003138D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8CB28B2B366622003138D1 /* Build configuration list for PBXNativeTarget "SubletAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8CB28C2B366622003138D1 /* Debug */,
+				7B8CB28D2B366622003138D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B8CB29A2B38AF4C003138D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B8CB29B2B38AF4C003138D1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B8CB29A2B38AF4C003138D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7B8CB29D2B38AF4C003138D1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B8CB29A2B38AF4C003138D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7B8CB29F2B38AF4C003138D1 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B8CB29A2B38AF4C003138D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		7B8CB2A12B38AF4C003138D1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B8CB29A2B38AF4C003138D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		7B8CB2A42B40D46E003138D1 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B8CB29A2B38AF4C003138D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		7B8CB2A62B40D478003138D1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B8CB29A2B38AF4C003138D1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7B8CB2592B366620003138D1 /* Project object */;
+}
