@@ -8,27 +8,30 @@ SubletSwift offers a secure and user-friendly authentication system. Users can r
 
  - *Login Page*
 
-<<img src="https://github.com/illia1383/SubletApp/assets/122395038/44808760-2d2f-4717-8e7f-ddab5e7f9e11" width="300" height="auto">
+<img src="https://github.com/illia1383/SubletApp/assets/122395038/44808760-2d2f-4717-8e7f-ddab5e7f9e11" width="150" height="auto">
 
 
 - *Register Page*
+<img src ="https://github.com/illia1383/SubletApp/assets/122395038/e7c35a7c-0550-4b0a-b691-0fc058de4f16" width="150" height="auto">
 
- // Replace with your screenshot
 
 ## 2. Subletting and Property Listing
 At the heart of SubletSwift is its ability to allow users to list and view available properties for subletting. Users can add their properties to a map, making them visible to everyone using the app. This feature makes it easy to find and offer sublets in various locations.
 
 - *Property Listing on Map*
 
- // Replace with your screenshot
+<img src = "https://github.com/illia1383/SubletApp/assets/122395038/f4b467e3-0bd1-438a-bafc-a5593a6da49f" width="150" height="auto">
+
 
 - *Property Details View*
 
- // Replace with your screenshot
+ <img src = "https://github.com/illia1383/SubletApp/assets/122395038/be06289f-2b41-42a6-a533-3c28d627f6cf" width="150" height="auto">
+
 
 ## 3. Map-Based Search Feature
 SubletSwift’s map-based search feature enhances the user experience by allowing users to search for specific locations, like a nearby Starbucks. This feature is particularly useful for users looking to find sublets in proximity to specific points of interest.
 
 Search Feature in Action
 
- // Replace with your screenshot
+ // <img src =  "Simulator Screenshot - iPhone 15 - 2024-01-12 at 15 47 44](https://github.com/illia1383/SubletApp/assets/122395038/8d74c297-7773-4901-9414-f50b5257773c" width="150" height="auto">
+
