@@ -34,5 +34,5 @@ SubletSwift’s map-based search feature enhances the user experience by allowin
 
 Search Feature in Action
 
- <img src =  "Simulator Screenshot - iPhone 15 - 2024-01-12 at 15 47 44](https://github.com/illia1383/SubletApp/assets/122395038/8d74c297-7773-4901-9414-f50b5257773c" width="150" height="auto">
+ <img src =  "https://github.com/illia1383/SubletApp/assets/122395038/8d74c297-7773-4901-9414-f50b5257773c" width="150" height="auto">
 
